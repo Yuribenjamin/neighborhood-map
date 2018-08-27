@@ -1,4 +1,4 @@
-#Neighborhood Map
+# Neighborhood Map
 [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Yuribenjamin/neighborhood-map/blob/master/LICENSE)
 
 Udacity's Google Developer Challenger Scholarship - Front End Web Development
