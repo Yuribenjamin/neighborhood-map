@@ -81,7 +81,7 @@ The service worker is only implemented during production build mode!
     - Functionality providing additional data about a location is provided and sourced from a 3rd party API. Information can be provided either in the marker’s info Window, or in an HTML element in the DOM (a sidebar, the list view, a modal, etc.)
     - Provide attribution for the source of additional data. For example, if using Foursquare, indicate somewhere in your UI and in your README that you are using Foursquare data
   - Error Free :
-    -Application runs without console errors
+    - Application runs without console errors
   - Usability :
     - Functionality is presented in a usable and responsive manner
 6. **Accessibility**
