@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import './App.css';
-import Header from './Header'
+import Searchbar from './Searchbar'
 
 class App extends Component {
 
@@ -68,7 +68,7 @@ class App extends Component {
   render() {
     return (
       <main>
-        <Header/>
+        <Searchbar/>
         <div id="map"></div>
       </main>
     );
