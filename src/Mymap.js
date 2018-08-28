@@ -115,7 +115,10 @@ class Mymap extends Component {
             location={this.state.locations}
             searched={this.filterLocations.bind(this)}
             />
-            <div id="map">
+            <div
+            id="map"
+            aria-label="map"
+            tabIndex="0">
             </div>
             </div>
         )

@@ -20,8 +20,14 @@ class Searchbar extends Component {
     render() {
     const { query, searched, filteredPlaces } = this.props
     return (
-        <div className="sidemenu">
-        <div className="search">
+        <div
+        className="sidemenu"
+        aria-label='sidemenu'
+        role='menu'>
+        <div
+        className="search"
+        aria-label='searchbox'
+        tabIndex='0'>
           <input
             type="text"
             placeholder="Looking for cafes"
@@ -29,10 +35,12 @@ class Searchbar extends Component {
             onChange={(e) => searched(e.target.value)}
           />
         </div>
-        <div className="ListView">
+        <div
+        className="ListView"
+        aria-label='list of all cafes'>
         <ul>
           {filteredPlaces.map((location, index) => (
-            <li key={index}><button onClick={() => this.activation(location.name)}>{location.name}</button></li>
+            <li key={index}><button onClick={() => this.activation(location.name)} aria-label='cafe buttons'>{location.name}</button></li>
           ))}
         </ul>
       </div>
