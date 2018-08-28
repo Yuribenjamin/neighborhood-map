@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import './App.css';
+import Header from './Header'
 
 class App extends Component {
 
@@ -66,6 +67,7 @@ class App extends Component {
   render() {
     return (
       <main>
+        <Header/>
         <div id="map"></div>
       </main>
     );
