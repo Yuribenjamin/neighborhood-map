@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Searchbar from './Searchbar'
 import axios from 'axios'
 
 
@@ -65,7 +66,10 @@ class Mymap extends Component {
     
     render() {
         return(
+            <div>
+            <Searchbar/>
             <div id="map"></div>
+            </div>
         )
     }
 }
