@@ -95,6 +95,11 @@ class Mymap extends Component {
             })
           } else {
             if (markers) {
+                /**
+                 * use foreach method instead .mpa methom to avoid
+                 * warning: Expected to return a value in arrow
+                 * function array-callback-return
+                 */ 
               markers.forEach((marker) => {
                 marker.setVisible(true)
               })
