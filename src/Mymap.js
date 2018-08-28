@@ -68,7 +68,8 @@ class Mymap extends Component {
         return(
             <div>
             <Searchbar/>
-            <div id="map"></div>
+            <div id="map">
+            </div>
             </div>
         )
     }
