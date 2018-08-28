@@ -88,6 +88,10 @@ class Mymap extends Component {
     }
 }
 
+/**
+ * loadScript function that create script tag use DOM 
+ * the tag holds google maps API src async defer 
+ */ 
 function loadScript (url) {
     var index  = window.document.getElementsByTagName("script")[0]
     var script = window.document.createElement("script")
