@@ -1,5 +1,16 @@
 #map {
-  height: 100vh;
+  height: 100%;
+  width: 75%;
+  right:0px;
+}
+
+
+.map {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -9,54 +20,45 @@ html, body {
   padding: 0;
 }
 
-.header {
-  background-color: black;
-  width: 100%;
+
+.sidemenu {
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  padding-top: 7px;
+  width: 25%;
+  background-color: #000;
 }
 
-button {
-  color:gray;
-  padding: 6px 15px 6px 10px;
+
+.sidemenu button {
+  border: 2px solid #990000;
+  width: 85%;
+  align-self: center;
   border-radius: 20px;
-  border: 1px solid red;
-  font: 16px Arial;
-  margin-right: 10px;
-  margin-left: 5px;
-
 }
 
-.searchbox {
-  width: 100%;
+
+.search {
+  display: flex;
+  width: 95%;
   height: 40px;
-  justify-content: center;
-  margin-right: auto;
- 
-
+  margin-top: 10px;
 }
+
 
 input {
   width: inherit;
-  border: 1px solid red;
+  border: 2px solid #990000;
   font: 16px Arial;
-  padding: 6px 15px 6px 35px;
+  padding: 10px;
   border-radius: 20px;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
 }
 
-.viewlist {
-  text-align: left;
-  color:#fff;
-}
 
-.viewlist ul {
+ul {
   list-style: none;
   left: 0px;
   align-self: left;
   width:inherit;
-
 }
