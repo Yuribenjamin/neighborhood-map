@@ -1,5 +1,5 @@
 #map {
-  height: 100vh;
+  height: 92.9vh;
 }
 
 
@@ -10,7 +10,7 @@ html, body {
 }
 
 #header {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16pt
+  width: 100%;
+  height: 4em;
+  background: black;
 }
