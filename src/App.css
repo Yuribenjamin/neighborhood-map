@@ -62,3 +62,54 @@ ul {
   align-self: left;
   width:inherit;
 }
+
+@media screen and (max-width: 800px) {
+
+  .sidemenu {
+    height: 300px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-content: flex-start;
+  }
+
+
+  .sidemenu button {
+    align-self: center;
+  }
+
+
+  .search {
+    align-self: center;
+    width: 90%;
+    height: 40px;
+    justify-content: space-around;
+    top: 0px;
+  }
+
+  .ListView {
+    text-align: left;
+    color:#fff;
+    align-items: left;
+    font: 16px Arial;
+  }
+
+  .ListView ul {
+    list-style: none;
+    left: 0px;
+    align-self: left;
+    width:inherit;
+  }
+
+  .MapContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #map {
+    height: 75%;
+    width:100%;
+  }
+
+}
