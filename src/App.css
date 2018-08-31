@@ -113,3 +113,57 @@ ul {
   }
 
 }
+
+
+@media screen and (max-width: 500px) {
+
+  .App {
+    min-width: 400px;
+  }
+
+  .sidemenu {
+    height: 250px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    justify-content: flex-start;
+  }
+
+  .sidemenu button {
+    align-self: center;
+  }
+
+  
+  .search {
+    align-self: center;
+    width: 90%;
+    height: 20px;
+    justify-content: space-around;
+    top: 0px;
+  }
+
+  .ListView {
+    text-align: left;
+    color:#fff;
+    align-items: left;
+    font: 12px Arial;
+  }
+
+  .ListView ul {
+    list-style: none;
+    left: 0px;
+    align-self: left;
+    width:inherit;
+  }
+
+  .MapContainer {
+    min-width: 400px;
+  }
+
+  #map {
+    height: 75%;
+    width: 100%;
+  }
+
+}
+
