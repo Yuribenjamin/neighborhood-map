@@ -17,6 +17,8 @@ This project is a final project in Udacity's Google Developer Challenger Scholar
 
 ## How to run the project
 
+[Live preview](https://yuribenjamin.github.io/neighborhood-map/)
+
 To get started developing right away:
 
 1. Download or clone with this repository in your machine using the the following URL
